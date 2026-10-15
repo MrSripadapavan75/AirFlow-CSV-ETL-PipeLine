@@ -1,0 +1,18 @@
+﻿{
+  "sales": {
+    "required_columns": ["order_id", "product", "quantity", "price"],
+    "drop_duplicates_on": ["order_id"],
+    "numeric_columns": ["quantity", "price"],
+    "positive_columns": ["quantity", "price"],
+    "fill_missing": {},
+    "required_values": ["order_id", "product"]
+  },
+  "employees": {
+    "required_columns": ["employee_id", "name", "department", "salary"],
+    "drop_duplicates_on": ["employee_id"],
+    "numeric_columns": ["salary"],
+    "positive_columns": ["salary"],
+    "fill_missing": {},
+    "required_values": ["employee_id", "name", "department"]
+  }
+}

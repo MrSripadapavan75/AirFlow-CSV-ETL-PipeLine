@@ -1,0 +1,40 @@
+
+# Secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Airflow generated files
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Generated ETL data
+dags/data/archive/
+dags/data/processed/
+dags/data/rejected/
+
+# Generated reports
+dags/reports/*.json
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local database and backup files
+*.sql
+*.dump
+*.backup
+*.sqlite
+*.sqlite3
