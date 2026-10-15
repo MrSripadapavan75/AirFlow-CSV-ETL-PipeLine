@@ -144,11 +144,11 @@ The cleaning task runs before the PostgreSQL loading task. The DAG is configured
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/MrSripadapavan75/airflow-csv-etl-pipeline.git
+git clone https://github.com/<your-username>/airflow-csv-etl-pipeline.git
 cd airflow-csv-etl-pipeline
 ```
 
-Replace `MrSripadapavan75` with your GitHub username.
+Replace `<your-username>` with your GitHub username.
 
 ### Step 2: Configure the environment
 
